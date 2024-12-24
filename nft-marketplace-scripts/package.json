@@ -1,0 +1,15 @@
+{
+  "name": "nft-marketplace-scripts",
+  "version": "1.0.0",
+  "description": "Scripts pour interagir avec le NFT Marketplace sur Abstract",
+  "main": "index.js",
+  "scripts": {
+    "create": "node scripts/createNFT.js",
+    "list": "node scripts/listAllNFTs.js",
+    "buy": "node scripts/buyNFT.js"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "dotenv": "^16.0.3"
+  }
+}
